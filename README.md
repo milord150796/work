@@ -12,7 +12,7 @@ Developing a one page website.
 5. The design of the project is developed with taking on consideration all the wishes
 of the customer and providing it with text, links, images.
 6. Mobile: 320px, Tablet: 768px, Desktop: 1024px.
-7. GitHub repository: https://github.com/milord150796/authorization.git
+7. GitHub repository: https://github.com/milord150796/authorization/tree/master
 8. Page structure Desktop version left_main block:
 
 
