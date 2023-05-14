@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: black;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: hidden;
+}
+.conteiner {
+  margin-left: 28%;
+  width: 752px;
+  height: 815px;
+  margin-top: 6%;
+  position: relative;
+}
+.box {
+  width: 550px;
+  background-color: rgba(40, 39, 47, 0.9);
+  position: absolute;
+  top: 150%;
+  left: 137%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  backdrop-filter: blur(4px);
+}
+h1 {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  white-space: nowrap;
+}
+.text {
+  color: white;
+}
+h2 {
+  font-size: 21px;
+  margin: 30px 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.input-from {
+  margin: 15px 40px;
+  text-align: center;
+}
+.input-from input {
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  background: none;
+  color: white;
+  border: 0px solid #fff;
+  box-sizing: border-box;
+  background-color: rgba(55, 55, 62, 255);
+  border-radius: 4px;
+  height: 60px;
+}
+.input-from button {
+  padding: 10px;
+  width: 100%;
+  font-size: 30px;
+  background: none;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10%;
+  font-weight: 550;
+  height: 80px;
+}
+.input-Google {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-bottom: 6%;
+  margin-top: 7%;
+}
+.input-Google button {
+  padding: 8px;
+  font-size: 20px;
+  box-sizing: border-box;
+  background-color: rgba(98, 97, 103, 0.5);
+  border-radius: 4px;
+}
+h3 {
+  font-size: 22px;
+  margin: 0px 55px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+.blue {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(59,117,206,255);
+  border-radius: 50%;
+  position: absolute;
+}
+.orang{
+  width: 300px;
+  height: 300px;
+  background-color: rgba(227,132,61,255);
+  position: absolute;
+  top: 72%;
+  border-radius: 50%;
+  left: 61%;
+}
+.Google{
+  width: 25px;
+   height: 25px;
+   position: absolute;
+   left:11%;
+   top:86%
+}
+.Facebook{
+  width: 25px;
+   height: 25px;
+   position: absolute;
+   left:54%;
+   top:86%
+}
+@media (min-width:320px) and (max-width: 768px) {
+  body{    overflow-x: hidden;overflow-y: hidden;
+  }
+  .conteiner {
+    margin-left: 5%;
+    width: 288px;
+    height: 388px;
+    margin-top: 11%;
+    position: relative;
+  }
+  .orang {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(227,132,61,255);
+    position: absolute;
+    top: 134%;
+    border-radius: 50%;
+    left: 99%;
+}
+.blue {
+    width: 70px;
+    left: -13px;
+    height: 70px;
+    background-color: rgba(59,117,206,255);
+    border-radius: 50%;
+    position: absolute;
+}
+.box {
+  position: absolute;
+  top: 423%;
+  left: 267%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  width: 331px;
+  background-color: rgba(40, 39, 47, 0.9);
+  backdrop-filter: blur(4px);
+}
+h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    white-space: nowrap;
+}
+h2 {
+  font-size: 16px;
+    margin: 30px 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+  .input-from {
+    margin: 15px 13px;
+    text-align: center;
+  }
+  .Google {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 11%;
+    top: 249px;
+    }
+  .input-from button {
+    padding: 5px;
+    width: 100%;
+    font-size: 23px;
+    background: none;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 10%;
+    font-weight: 550;
+    height: 51px;
+  }
+  .input-Google {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 6%;
+    margin-top: 7%;
+  }
+  h3 {
+    font-size: 13px;
+    margin: 0px 32px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .Facebook{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 54%;
+    top: 249px;
+  }
+}
+@media (min-width:769px) and (max-width:1024px){
+.conteiner{
+  margin-left: 2%;
+    width: 752px;
+    height: 815px;
+    margin-top: 16%;
+    position: relative;
+}
+.box{
+  backdrop-filter: blur(4px);
+}
+}
+
