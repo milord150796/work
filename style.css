@@ -12,38 +12,47 @@ h1{
   margin-top: 20px;
   font-size: 25px;
 }
-#button:hover {
+#button1:hover {
+  background-color: blue;
+}
+#button2:hover {
+  background-color: blue;
+}
+#button3:hover {
   background-color: blue;
 }
 
 @media (min-width:320px) and (max-width: 768px){
 .container{
-    width: 300px;
-    height: 550px;
+    width: 320px;
+    height: 440px;
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 10px;
     align-items: center;
     justify-content: center;
     margin-left: 35%;
+    margin: 70px auto;
   }
 .blue{
   width: 90px;
   height: 90px;
   background-color: rgba(59,117,206,0.7);
   position: absolute;
-  top: 53px;
-  left: -8px;
+  top: 0px;
+  left: 0px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 .orang{
   width: 90px ;
   height: 90px;
   background-color: rgba(245, 134, 49, 0.849);;
   position: absolute;
-  top: 69%;
-  left: 66%;
+  top: auto;
+  right: 0px;
+  left: auto;
+  bottom: 0px;
   border-radius: 50%;
 }
 .box{
@@ -127,42 +136,45 @@ h1{
 }
 @media (min-width:769px) and (max-width:1024px){
   .container{
-    width: 300px;
-    height: 550px;
+    width: 320px;
+    height: 440px;
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 10px;
     align-items: center;
     justify-content: center;
     margin-left: 35%;
+    margin: 70px auto;
   }
-  .blue{
-    width: 90px;
-    height: 90px;
-    background-color: rgba(59,117,206,0.7);
-    position: absolute;
-    top: 53px;
-    left: -8px;
-    border-radius: 50%;
-  }
-  .orang{
-    width: 90px ;
-    height: 90px;
-    background-color: rgba(245, 134, 49, 0.849);;
-    position: absolute;
-    top: 69%;
-    left: 66%;
-    border-radius: 50%;
-  }
-  .box{
-    width: 233px;
-    background-color: rgba(40, 39, 47, 0.7);
-    height: 348px;
-    border-radius: 10px;
-    z-index: 1;
-    backdrop-filter: blur(4px);
-  }
+.blue{
+  width: 90px;
+  height: 90px;
+  background-color: rgba(59,117,206,0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.orang{
+  width: 90px ;
+  height: 90px;
+  background-color: rgba(245, 134, 49, 0.849);;
+  position: absolute;
+  top: auto;
+  right: 0px;
+  left: auto;
+  bottom: 0px;
+  border-radius: 50%;
+}
+.box{
+  width: 233px;
+  background-color: rgba(40, 39, 47, 0.7);
+  height: 348px;
+  border-radius: 10px;
+  z-index: 1;
+  backdrop-filter: blur(4px);
+}
   .form{
     display: flex;
     justify-content: center;
@@ -235,32 +247,35 @@ h1{
 }
 @media (min-width:1025px){
   .container{
-    width: 300px;
-    height: 550px;
+    width: 320px;
+    height: 440px;
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 10px;
     align-items: center;
     justify-content: center;
     margin-left: 35%;
+    margin: 70px auto;
   }
 .blue{
   width: 90px;
   height: 90px;
   background-color: rgba(59,117,206,0.7);
   position: absolute;
-  top: 53px;
-  left: -8px;
+  top: 0px;
+  left: 0px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 .orang{
   width: 90px ;
   height: 90px;
   background-color: rgba(245, 134, 49, 0.849);;
   position: absolute;
-  top: 69%;
-  left: 66%;
+  top: auto;
+  right: 0px;
+  left: auto;
+  bottom: 0px;
   border-radius: 50%;
 }
 .box{
@@ -344,32 +359,35 @@ h1{
 }
 @media (min-width:50px){
   .container{
-    width: 300px;
-    height: 550px;
+    width: 320px;
+    height: 440px;
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 10px;
     align-items: center;
     justify-content: center;
     margin-left: 35%;
+    margin: 70px auto;
   }
 .blue{
   width: 90px;
   height: 90px;
   background-color: rgba(59,117,206,0.7);
   position: absolute;
-  top: 53px;
-  left: -8px;
+  top: 0px;
+  left: 0px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 .orang{
   width: 90px ;
   height: 90px;
   background-color: rgba(245, 134, 49, 0.849);;
   position: absolute;
-  top: 69%;
-  left: 66%;
+  top: auto;
+  right: 0px;
+  left: auto;
+  bottom: 0px;
   border-radius: 50%;
 }
 .box{
